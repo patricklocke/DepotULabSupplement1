@@ -1,0 +1,18 @@
+#test {
+    background-color: #aaa;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    float: left;
+    clear: both;
+   
+}
+
+#saymyname {
+    background-color: navy;
+    color: white;
+    height: 200px;
+    width: 200px;
+    clear: both; 
+    position: relative;
+}

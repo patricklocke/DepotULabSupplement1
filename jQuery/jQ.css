@@ -1,17 +1,30 @@
-#test {
-    background-color: #AAAAAA;
-    height: 400px;
-    width: 400px;
+#comments {
     position: relative;
-    float: left;
     clear: both;
-   
+    float: left;
 }
 
-#saymyname {
+#test {
+    background-color: #AAAAAA;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    float: left;
+    clear: left;
+    margin-right: 50px;
+   
+}
+#button-time {
+    padding: 50px 50px;
+}
+
+#sayItHere {
     background-color: #CCCCCC;
     height: 200px;
     width: 200px;
     clear: both; 
     position: relative;
+}
+p {
+    float: left;
 }

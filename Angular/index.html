@@ -1,0 +1,36 @@
+<!DOCTYPE hmtl>
+<html ng-app="myApp">
+    <head>
+        <script src="https://code.angularjs.org/1.5.2/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.5.2/angular-sanitize.min.js"></script>
+        <link href='angular.css' rel='stylesheet'/>
+    </head>
+    <body>
+        <div ng-controller="firstController">
+            <button ng-click="alertClicked()">I am a Button</button>
+        </div>
+        
+        <div ng-controller="secondController">
+            <textarea name="Comments" id="comment" cols="30" rows="5" ng-model="comments.text"></textarea>
+            <button id='submit' ng-click="alertClicked()">Submit</button>
+        </div>
+       
+       <div ng-controller="thirdController" class ="container">
+       <div id='test'ng-style="newColor" ng-mouseenter="hover()" ng-mouseleave="out()">
+       </div>
+       </div>
+       
+      
+        <div ng-controller="fourthController">
+        <p id='chameleon' ng-click="click()" ng-style="newColor">Click me to change my color!</p>
+        </div>
+        
+        <div id='saymyname' ng-controller="fifthController" ng-click="newName()"></div>
+        
+        <button id='friends' ng-controller="sixthController" ng-click="show()">My friends are here!</button>
+            <ul id='friendpool'>
+                
+            </ul>
+        <script src='angular.js'></script>
+    </body>
+</html>
